@@ -1,0 +1,40 @@
+🧠 Apa itu Dependency Inversion Principle (DIP)?
+🗣️ Penjelasan:
+
+“DIP adalah prinsip kelima dari SOLID. Prinsip ini bilang: modul level tinggi tidak boleh bergantung langsung pada modul level rendah, keduanya harus bergantung pada abstraksi. Artinya: kelas utama kita jangan langsung tahu ‘detail’, tapi cuma tahu ‘aturan main’-nya, yaitu interface.”
+
+🎯 Analogi:
+
+“Bayangkan kamu menyewa orang buat beresin rumah. Kamu tinggal kasih daftar tugas, bukan ngatur satu per satu langkahnya. Yang penting: tugas selesai, cara terserah dia.”
+
+🔧 1. Dependency Injection (DI)
+✅ Inti Konsep
+Dependency Injection berarti kita memberikan objek yang dibutuhkan (dependency) dari luar, bukan membuatnya sendiri di dalam kelas. Ini seperti kamu meminjam obeng ke teman, bukan selalu beli obeng baru setiap kali mau memperbaiki sesuatu.
+
+💡 Contoh Kasus Sederhana
+Bayangkan kita punya printer, dan kita ingin mencetak dokumen. Tapi, tinta-nya disiapkan dari luar (bukan printer yang bikin tinta sendiri)..
+
+🧠 Untuk Orang Awam
+Bayangkan kamu ingin mencetak dokumen, dan kamu diberi pilihan untuk pakai tinta hitam atau warna. Printer kamu hanya menjalankan perintah cetak, tinta-nya kamu yang tentukan dari luar. Itulah "Dependency Injection".
+
+🏭 2. Factory Pattern
+✅ Inti Konsep
+Factory Pattern berarti kita membuat pabrik pembuat objek, agar kelas utama tidak perlu tahu detail cara membuat objek. Ini seperti kamu pesan minuman di warung, kamu tinggal bilang “Es Teh”, tidak perlu tahu cara bikinnya.
+
+💡 Contoh Kasus Sederhana
+Kita ingin membuat berbagai jenis mobil (Mobil Sport atau Mobil Keluarga), tapi pembuatan mobilnya diserahkan ke "pabrik".
+
+🧠 Untuk Orang Awam
+Kamu pergi ke showroom dan bilang “saya mau mobil sport”. Kamu tidak perlu tahu proses pembuatannya, yang penting kamu dapat mobilnya. Itulah “Factory Pattern”.
+
+🧠 3. Strategy Pattern
+✅ Inti Konsep
+Strategy Pattern berarti kita bisa mengganti cara kerja (strategi) suatu bagian dari program tanpa harus mengubah program utama. Misalnya, kamu ingin menyortir data dengan cepat atau akurat — tinggal ganti strategi-nya!
+
+💡 Contoh Kasus Sederhana
+Program kalkulator yang bisa menghitung penjumlahan atau pengurangan, tergantung strategi yang dipilih.
+
+🧠 Untuk Orang Awam
+Bayangkan kamu punya kalkulator pintar. Kamu tinggal bilang: “Hitung pakai strategi penjumlahan” atau “Hitung pakai strategi pengurangan”. Kalkulator akan nurut. Itulah Strategy Pattern.
+
+
